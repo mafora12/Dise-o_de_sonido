@@ -15,11 +15,11 @@ C:/Users/MARIANA/Documents/GitHub/Diseño_de_sonido/disñeo_sonoro final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51802
+49489
 Successfully changed project path to: C:/Users/MARIANA/Documents/GitHub/Diseño_de_sonido/disñeo_sonoro final
 C:/Users/MARIANA/Documents/GitHub/Diseño_de_sonido/disñeo_sonoro final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,88 +35,226 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000774 seconds.
+Registered in 0.000791 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  1.155 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001924 seconds.
+Registered in 0.003490 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 117.0 MB.
-System memory in use after: 117.2 MB.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.6 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2912.
-Total: 1.761900 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.477700 ms  DeleteObjects: 0.061900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Karting
-  artifactKey: Guid(5b37cab98afac4ca696e7a5c19dec454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting using Guid(5b37cab98afac4ca696e7a5c19dec454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5742740263f96730f4aadaad8465f47') in 0.008411 seconds
-  Import took 0.011015 seconds .
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 2.097700 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.081900 ms MarkObjects: 1.632100 ms  DeleteObjects: 0.087100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.032957 seconds.
-  path: Assets/Karting/Audio
-  artifactKey: Guid(aa23596ae46e14f568b42db808e171fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Audio using Guid(aa23596ae46e14f568b42db808e171fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e582765f063c87dd6d2fe544ea26b1') in 0.009905 seconds
-  Import took 0.012449 seconds .
+  path: Assets/Plugins/FMOD
+  artifactKey: Guid(06ae579381df01a4a87bb149dec89954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD using Guid(06ae579381df01a4a87bb149dec89954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6c465594ce6c717d2c262025aa8a8c') in 0.018703 seconds
+  Import took 0.021955 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.726667 seconds.
-  path: Assets/Karting/Art
-  artifactKey: Guid(aa5f8f04edcf4449a97dc5a7dab635fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Art using Guid(aa5f8f04edcf4449a97dc5a7dab635fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676646a5b5ba4bcaa53a143da08b3339') in 0.008968 seconds
-  Import took 0.011524 seconds .
+  Time since last request: 0.000211 seconds.
+  path: Assets/Plugins/FMOD/FMODUnity.asmdef
+  artifactKey: Guid(0c752da273b17c547ae705acf0f2adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/FMODUnity.asmdef using Guid(0c752da273b17c547ae705acf0f2adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54b38462d4847ce65ad8435695666c5') in 0.027353 seconds
+  Import took 0.030729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.817728 seconds.
+  path: Assets/Plugins/FMOD/addons
+  artifactKey: Guid(850b7bf08237b964b8b005fe703774f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/addons using Guid(850b7bf08237b964b8b005fe703774f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01904c39f97cf42c6b1d4f185c78b13d') in 0.011680 seconds
+  Import took 0.015790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.563349 seconds.
+  path: Assets/Plugins/FMOD/platform_ios.mm
+  artifactKey: Guid(fc7eb3c9194584004bdf04921e5cb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/platform_ios.mm using Guid(fc7eb3c9194584004bdf04921e5cb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755b712e993fbfb1e845edc821fb4cd9') in 0.020234 seconds
+  Import took 0.023262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025129 seconds.
+  path: Assets/Plugins/FMOD/platform_ios.mm
+  artifactKey: Guid(fc7eb3c9194584004bdf04921e5cb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/platform_ios.mm using Guid(fc7eb3c9194584004bdf04921e5cb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755b712e993fbfb1e845edc821fb4cd9') in 0.003598 seconds
+  Import took 0.006885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.598122 seconds.
+  path: Assets/Plugins/FMOD/staging
+  artifactKey: Guid(e2f4c39daee258d4788426534396f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/staging using Guid(e2f4c39daee258d4788426534396f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46175f684498df1c0698c8a78a5c767') in 0.012977 seconds
+  Import took 0.015863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039432 seconds.
+  path: Assets/Plugins/FMOD/staging/win
+  artifactKey: Guid(2241d630bdbdd0e40afd954fd937cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/staging/win using Guid(2241d630bdbdd0e40afd954fd937cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8415bbbd9e6a36237fc114d7e690d986') in 0.010189 seconds
+  Import took 0.013301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990839 seconds.
+  path: Assets/Plugins/FMOD/staging/win/lib
+  artifactKey: Guid(2fdf6db79a3c0594b8496041ae8773ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/staging/win/lib using Guid(2fdf6db79a3c0594b8496041ae8773ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58fe1e7fda9261271f10896235c1a54') in 0.009271 seconds
+  Import took 0.012390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.115105 seconds.
+  path: Assets/Plugins/FMOD/staging/win/lib/arm64
+  artifactKey: Guid(179cdab37687c604791b1b5831b6747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/staging/win/lib/arm64 using Guid(179cdab37687c604791b1b5831b6747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d0b8c7f8f4647334074d3ff22cdb41') in 0.008948 seconds
+  Import took 0.011922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953851 seconds.
+  path: Assets/Plugins/FMOD/staging/win/lib/arm64/fmodstudioL.dll
+  artifactKey: Guid(c68c05b78a35b744b97fffad7359d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/staging/win/lib/arm64/fmodstudioL.dll using Guid(c68c05b78a35b744b97fffad7359d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba4eb187846e533ec224587fc1dca7f') in 0.015659 seconds
+  Import took 0.018961 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001807 seconds.
+Registered in 0.003474 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.574 seconds
+- Completed reload, in  0.600 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2414 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.2 MB.
-System memory in use after: 112.4 MB.
+Unloading 2568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 117.9 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2915.
-Total: 1.880100 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.572200 ms  DeleteObjects: 0.054800 ms)
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 2994.
+Total: 2.009300 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.076600 ms MarkObjects: 1.635900 ms  DeleteObjects: 0.070000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003824 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/fmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/fmodstudioL.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/fmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libfmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libfmodstudioL.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libfmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/fmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/fmodstudioL.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/fmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libfmodstudioL
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libfmodstudioL.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Mono/lib/libfmodstudioL
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.5 MB.
+System memory in use after: 117.6 MB.
+
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 2.233500 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.091000 ms MarkObjects: 1.820000 ms  DeleteObjects: 0.069600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 757.666030 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(3ddd9141f468bd4489a1f288647eb964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(3ddd9141f468bd4489a1f288647eb964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20949f155a7e38178a7f332b4b366cd7') in 0.040072 seconds
+  Import took 0.043264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.408636 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(3ddd9141f468bd4489a1f288647eb964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(3ddd9141f468bd4489a1f288647eb964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b04947b325999917bc7930e9b1bbca') in 0.003398 seconds
+  Import took 0.006289 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.5 MB.
+System memory in use after: 117.7 MB.
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2998.
+Total: 2.202200 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.683400 ms  DeleteObjects: 0.096700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3363.528484 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(3ddd9141f468bd4489a1f288647eb964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(3ddd9141f468bd4489a1f288647eb964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75e855b23e2534fee9e132db234eef8') in 0.039668 seconds
+  Import took 0.043467 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

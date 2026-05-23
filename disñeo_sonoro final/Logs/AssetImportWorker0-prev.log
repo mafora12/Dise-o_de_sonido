@@ -15,11 +15,11 @@ C:/Users/MARIANA/Documents/GitHub/Diseño_de_sonido/disñeo_sonoro final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64734
+51802
 Successfully changed project path to: C:/Users/MARIANA/Documents/GitHub/Diseño_de_sonido/disñeo_sonoro final
 C:/Users/MARIANA/Documents/GitHub/Diseño_de_sonido/disñeo_sonoro final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,329 +35,88 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000916 seconds.
+Registered in 0.000774 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
+- Completed reload, in  0.984 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002118 seconds.
+Registered in 0.001924 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  0.932 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 117.1 MB.
-System memory in use after: 117.3 MB.
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2914.
-Total: 2.214800 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.845500 ms  DeleteObjects: 0.082600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Karting/Tutorials/Unity.Karting.Tutorials.asmdef
-  artifactKey: Guid(85246831d3410134ab2bd1cd1523830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/Unity.Karting.Tutorials.asmdef using Guid(85246831d3410134ab2bd1cd1523830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f04375d664722a33ba610ba172630a') in 0.026115 seconds
-  Import took 0.029030 seconds .
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2912.
+Total: 1.761900 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.477700 ms  DeleteObjects: 0.061900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Karting/Tutorials/Tutorials.asset
-  artifactKey: Guid(08f5116c6f71aa548a00fbd1f56fa92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/Tutorials.asset using Guid(08f5116c6f71aa548a00fbd1f56fa92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73828d82d4d63774e22d06b0b3e39e80') in 0.109165 seconds
-  Import took 0.112340 seconds .
+  path: Assets/Karting
+  artifactKey: Guid(5b37cab98afac4ca696e7a5c19dec454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting using Guid(5b37cab98afac4ca696e7a5c19dec454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5742740263f96730f4aadaad8465f47') in 0.008411 seconds
+  Import took 0.011015 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Karting/Tutorials/Tutorial Project Settings.asset
-  artifactKey: Guid(7e7ff6d40365f43b282454f6d57a0ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/Tutorial Project Settings.asset using Guid(7e7ff6d40365f43b282454f6d57a0ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Invalid serialized file header. File: "VirtualArtifacts/Primary/f024b7035a09345e5848e3de8f1b5dcb".
-
-Unknown error occurred while loading 'Library/Artifacts/24/24967fb264fc189332664583d7adc6a6'.
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/1cc9851f62063cd4ba510d60b2c81bbe".
-
-Unknown error occurred while loading 'Library/Artifacts/4a/4ad7d4e7700dc48c3a99b2b5df38cdf2'.
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/f024b7035a09345e5848e3de8f1b5dcb".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:103)
-Unity.InteractiveTutorials.TutorialStyles:OnValidate () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:94)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 103]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/f024b7035a09345e5848e3de8f1b5dcb".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:103)
-Unity.InteractiveTutorials.TutorialStyles:OnValidate () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:94)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 103]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/1cc9851f62063cd4ba510d60b2c81bbe".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:107)
-Unity.InteractiveTutorials.TutorialStyles:OnValidate () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:94)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 107]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/1cc9851f62063cd4ba510d60b2c81bbe".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:107)
-Unity.InteractiveTutorials.TutorialStyles:OnValidate () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:94)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 107]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/f024b7035a09345e5848e3de8f1b5dcb".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:103)
-Unity.InteractiveTutorials.TutorialStyles:OnEnable () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:89)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 103]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/f024b7035a09345e5848e3de8f1b5dcb".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:103)
-Unity.InteractiveTutorials.TutorialStyles:OnEnable () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:89)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 103]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/1cc9851f62063cd4ba510d60b2c81bbe".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:107)
-Unity.InteractiveTutorials.TutorialStyles:OnEnable () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:89)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 107]
-
-Invalid serialized file header. File: "VirtualArtifacts/Primary/1cc9851f62063cd4ba510d60b2c81bbe".
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.UIElements.StyleSheet> (string)
-Unity.InteractiveTutorials.TutorialStyles:Apply () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:107)
-Unity.InteractiveTutorials.TutorialStyles:OnEnable () (at Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs:89)
-
-[Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Models/TutorialStyles.cs line 107]
-
- -> (artifact id: '674faffd6f124c85b0cfbf1f66787b3c') in 0.083534 seconds
-  Import took 0.086475 seconds .
+  Time since last request: 9.032957 seconds.
+  path: Assets/Karting/Audio
+  artifactKey: Guid(aa23596ae46e14f568b42db808e171fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio using Guid(aa23596ae46e14f568b42db808e171fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e582765f063c87dd6d2fe544ea26b1') in 0.009905 seconds
+  Import took 0.012449 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/WT-Hiearchy.png
-  artifactKey: Guid(919c66dd6aa06460a9f21e558a5a2d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/WT-Hiearchy.png using Guid(919c66dd6aa06460a9f21e558a5a2d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f3f804473de8439eac243b92ef151') in 0.060410 seconds
-  Import took 0.063995 seconds .
+  Time since last request: 14.726667 seconds.
+  path: Assets/Karting/Art
+  artifactKey: Guid(aa5f8f04edcf4449a97dc5a7dab635fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art using Guid(aa5f8f04edcf4449a97dc5a7dab635fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676646a5b5ba4bcaa53a143da08b3339') in 0.008968 seconds
+  Import took 0.011524 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Karting/Tutorials/TutorialCallbacks.asset
-  artifactKey: Guid(8624a904984c90d4b9b816ca2b211db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/TutorialCallbacks.asset using Guid(8624a904984c90d4b9b816ca2b211db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b869ababd3f1a6bd6b9ae5a39717bbe') in 0.014304 seconds
-  Import took 0.017020 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001807 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.574 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.2 MB.
+System memory in use after: 112.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/1 Get Started.asset
-  artifactKey: Guid(92d21b44a68004daebe1f6c4e03b487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/1 Get Started.asset using Guid(92d21b44a68004daebe1f6c4e03b487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348bb805b0c4a2c62e239b4115e3ce3f') in 0.075207 seconds
-  Import took 0.078202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 01-Introduction.asset
-  artifactKey: Guid(fc1ba142c7deb40408e4c114e5a0ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 01-Introduction.asset using Guid(fc1ba142c7deb40408e4c114e5a0ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06bb4ab867aef5aedf98f69c8b5ac96') in 0.007428 seconds
-  Import took 0.010073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Karting/Tutorials/DialogHeader_Kart.png
-  artifactKey: Guid(128afd373c6f34f43bd58b7bd0815ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/DialogHeader_Kart.png using Guid(128afd373c6f34f43bd58b7bd0815ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e33b6b3038bdf4f13289a29dbe2d61') in 0.043575 seconds
-  Import took 0.046255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Karting/Tutorials/SuperchargeYourGame.png
-  artifactKey: Guid(64234be53c8614d4d9b50bec3f9d516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/SuperchargeYourGame.png using Guid(64234be53c8614d4d9b50bec3f9d516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e145400d87b1876db141aba2685d022') in 0.012804 seconds
-  Import took 0.016089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Karting/Tutorials/1 Get started
-  artifactKey: Guid(5ec38bce219754e699a7064d43ac0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started using Guid(5ec38bce219754e699a7064d43ac0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9d69ff7fbfac2f374f263423fc88c6') in 0.006576 seconds
-  Import took 0.009153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Karting/Tutorials/WelcomeDialog.asset
-  artifactKey: Guid(52f0f4a57417740ea92501a52d39a8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/WelcomeDialog.asset using Guid(52f0f4a57417740ea92501a52d39a8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0af27bf1a3ec93faf606796ef15e88c') in 0.010972 seconds
-  Import took 0.013923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Karting/Tutorials
-  artifactKey: Guid(c4f60585933b24e06a3e11a5aaf2c6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials using Guid(c4f60585933b24e06a3e11a5aaf2c6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a06382bff098968fe3109f3e5e6045') in 0.002241 seconds
-  Import took 0.005173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 02-First-Play.asset
-  artifactKey: Guid(612844087f48942d8b0855e60990f01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 02-First-Play.asset using Guid(612844087f48942d8b0855e60990f01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33089f600d7189953c15b95127934680') in 0.012477 seconds
-  Import took 0.015147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/WT-Play.mov
-  artifactKey: Guid(d69745293769a49ffb6955bb4862345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/WT-Play.mov using Guid(d69745293769a49ffb6955bb4862345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f212187e4230431311c59b486a463a38') in 0.029818 seconds
-  Import took 0.032449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 05-Inspector-Intro.asset
-  artifactKey: Guid(4ac627054a9104ee889eef8b990a8102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 05-Inspector-Intro.asset using Guid(4ac627054a9104ee889eef8b990a8102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511063f32864cf94114c1175e0f68f25') in 0.008802 seconds
-  Import took 0.011619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 03-Exit-Play.asset
-  artifactKey: Guid(67df256d36f564827ab6cce4308e8cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 03-Exit-Play.asset using Guid(67df256d36f564827ab6cce4308e8cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09da49ac23660f76d2a3f6aa67423813') in 0.010410 seconds
-  Import took 0.013253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 06-Enter-PlayMode.asset
-  artifactKey: Guid(1ddadc0b2227c4f95b63cc350b714bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 06-Enter-PlayMode.asset using Guid(1ddadc0b2227c4f95b63cc350b714bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc194de6b74b71c6dab942c955efbdc') in 0.010805 seconds
-  Import took 0.013710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 07-Exit-PlayMode.asset
-  artifactKey: Guid(563a8aba6d9a0a0418aae455804e1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 07-Exit-PlayMode.asset using Guid(563a8aba6d9a0a0418aae455804e1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8163b13b369305975495ffefa7f2a8ae') in 0.018918 seconds
-  Import took 0.021742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/WT-Inspector.png
-  artifactKey: Guid(ae6835abb80fc4f0c949b54d00b1c63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/WT-Inspector.png using Guid(ae6835abb80fc4f0c949b54d00b1c63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1405fb203f0559729e03dd67970f2228') in 0.013631 seconds
-  Import took 0.016248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Karting/Tutorials/TutorialHeader.png
-  artifactKey: Guid(1c7aa536c503744ffafe54d893a5816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/TutorialHeader.png using Guid(1c7aa536c503744ffafe54d893a5816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b2f0e28a6404bfdba9b054730e0833') in 0.012634 seconds
-  Import took 0.015330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/WT-Select-Gameobject.mov
-  artifactKey: Guid(35304cdc4c526489ca8df1faeb57f5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/WT-Select-Gameobject.mov using Guid(35304cdc4c526489ca8df1faeb57f5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1917a7d0c468214f11803b7cd94ba36') in 0.006885 seconds
-  Import took 0.009654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 10-Done.asset
-  artifactKey: Guid(0f9959ef5c21e45e4ac3e429fab617df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 10-Done.asset using Guid(0f9959ef5c21e45e4ac3e429fab617df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb8f0c0d1405f74f6060d5aa9e4c2bc') in 0.076264 seconds
-  Import took 0.079775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/WT-Select-Property.mov
-  artifactKey: Guid(07194c5207fd848ddab5351079a420c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/WT-Select-Property.mov using Guid(07194c5207fd848ddab5351079a420c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4fffbe3fdcdf96da9a91e0d69c5b02') in 0.014431 seconds
-  Import took 0.017001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/WT1-GameObject.png
-  artifactKey: Guid(e8cc75cb0bdf34f5e86d22cfc8994332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/WT1-GameObject.png using Guid(e8cc75cb0bdf34f5e86d22cfc8994332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c4b1d40a85e5b581fd907f6885142') in 0.011542 seconds
-  Import took 0.014612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 04-Hierarchy-Intro.asset
-  artifactKey: Guid(711cc3d0de12846669d9e54d15ce9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 04-Hierarchy-Intro.asset using Guid(711cc3d0de12846669d9e54d15ce9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd90e120bae46d0f45cac2e5834ab855') in 0.011633 seconds
-  Import took 0.014370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001826 seconds.
-  path: Assets/Karting/Tutorials/1 Get started/Get Started 04-Hierarchy-Intro.asset
-  artifactKey: Guid(711cc3d0de12846669d9e54d15ce9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Tutorials/1 Get started/Get Started 04-Hierarchy-Intro.asset using Guid(711cc3d0de12846669d9e54d15ce9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd90e120bae46d0f45cac2e5834ab855') in 0.004166 seconds
-  Import took 0.006840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.727311 seconds.
-  path: Assets/Karting/ThirdPartyNotice.txt
-  artifactKey: Guid(ef2d7b93deaaef14e88a575c278648af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/ThirdPartyNotice.txt using Guid(ef2d7b93deaaef14e88a575c278648af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d53cfdd8a3c39786c7f2cf08e79d0d') in 0.024119 seconds
-  Import took 0.027539 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2915.
+Total: 1.880100 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.572200 ms  DeleteObjects: 0.054800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
