@@ -1,66 +1,48 @@
-﻿using Unity.Collections.LowLevel.Unsafe;
-using UnityEngine;
+﻿using UnityEngine;
+using FMODUnity;
 
 namespace KartGame.KartSystems
 {
-    /// <summary>
-    /// This class produces audio for various states of the vehicle's movement.
-    /// </summary>
     public class ArcadeEngineAudio : MonoBehaviour
     {
-        [Tooltip("What audio clip should play when the kart starts?")]
-        public AudioSource StartSound;
-        [Tooltip("What audio clip should play when the kart does nothing?")]
-        public AudioSource IdleSound;
-        [Tooltip("What audio clip should play when the kart moves around?")]
-        public AudioSource RunningSound;
-        [Tooltip("What audio clip should play when the kart is drifting")]
-        public AudioSource Drift;
-        [Tooltip("Maximum Volume the running sound will be at full speed")]
-        [Range(0.1f, 1.0f)]public float RunningSoundMaxVolume = 1.0f;
-        [Tooltip("Maximum Pitch the running sound will be at full speed")]
-        [Range(0.1f, 2.0f)] public float RunningSoundMaxPitch = 1.0f;
-        [Tooltip("What audio clip should play when the kart moves in Reverse?")]
-        public AudioSource ReverseSound;
-        [Tooltip("Maximum Volume the Reverse sound will be at full Reverse speed")]
-        [Range(0.1f, 1.0f)] public float ReverseSoundMaxVolume = 0.5f;
-        [Tooltip("Maximum Pitch the Reverse sound will be at full Reverse speed")]
-        [Range(0.1f, 2.0f)] public float ReverseSoundMaxPitch = 0.6f;
-
+        public float minRPM = 500;
+        public float maxRPM = 2000;
         ArcadeKart arcadeKart;
+        private StudioEventEmitter[] emitters;
+        private StudioEventEmitter motorEmitter;
+        private StudioEventEmitter reverseEmitter;
+        private StudioEventEmitter driftEmitter;
 
         void Awake()
         {
             arcadeKart = GetComponentInParent<ArcadeKart>();
+            emitters = GetComponents<StudioEventEmitter>();
+            foreach (var e in emitters)
+            {
+                if (e.EventReference.Path.Contains("mi_motor")) motorEmitter = e;
+                if (e.EventReference.Path.Contains("engine_reverse")) reverseEmitter = e;
+                if (e.EventReference.Path.Contains("drift")) driftEmitter = e;
+            }
         }
 
         void Update()
         {
-            float kartSpeed = 0.0f;
-            if (arcadeKart != null)
-            {
-                kartSpeed = arcadeKart.LocalSpeed();
-                Drift.volume = arcadeKart.IsDrifting && arcadeKart.GroundPercent > 0.0f ? arcadeKart.Rigidbody.velocity.magnitude / arcadeKart.GetMaxSpeed() : 0.0f;
-            }
+            float kartSpeed = arcadeKart != null ? arcadeKart.LocalSpeed() : 0;
+            float effectiveRPM = Mathf.Lerp(minRPM, maxRPM, Mathf.Abs(kartSpeed));
 
-            IdleSound.volume    = Mathf.Lerp(0.6f, 0.0f, kartSpeed * 4);
+            if (motorEmitter != null)
+                motorEmitter.SetParameter("RPM", effectiveRPM);
 
-            if (kartSpeed < 0.0f)
-            {
-                // In reverse
-                RunningSound.volume = 0.0f;
-                ReverseSound.volume = Mathf.Lerp(0.1f, ReverseSoundMaxVolume, -kartSpeed * 1.2f);
-                ReverseSound.pitch = Mathf.Lerp(0.1f, ReverseSoundMaxPitch, -kartSpeed + (Mathf.Sin(Time.time) * .1f));
-            }
-            else
-            {
-                // Moving forward
-                ReverseSound.volume = 0.0f;
-                RunningSound.volume = Mathf.Lerp(0.1f, RunningSoundMaxVolume, kartSpeed * 1.2f);
-                RunningSound.pitch = Mathf.Lerp(0.3f, RunningSoundMaxPitch, kartSpeed + (Mathf.Sin(Time.time) * .1f));
-            }
+            if (reverseEmitter != null)
+                reverseEmitter.SetParameter("RPM", kartSpeed < 0 ? effectiveRPM : 0);
 
-            
+            if (driftEmitter != null && arcadeKart != null)
+            {
+                if (arcadeKart.IsDrifting && arcadeKart.GroundPercent > 0)
+                    driftEmitter.Play();
+                else
+                    driftEmitter.Stop();
+            }
         }
     }
 }
