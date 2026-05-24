@@ -162,13 +162,8 @@ public class GameFlowManager : MonoBehaviour
         {
             m_SceneToLoad = winSceneName;
             m_TimeLoadEndGameScene = Time.time + endSceneLoadDelay + delayBeforeFadeToBlack;
+            FindObjectOfType<KartMusicController>()?.LastLap();
 
-            // play a sound on win
-            var audioSource = gameObject.AddComponent<AudioSource>();
-            audioSource.clip = victorySound;
-            audioSource.playOnAwake = false;
-            audioSource.outputAudioMixerGroup = AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.HUDVictory);
-            audioSource.PlayScheduled(AudioSettings.dspTime + delayBeforeWinMessage);
 
             // create a game message
             winDisplayMessage.delayBeforeShowing = delayBeforeWinMessage;

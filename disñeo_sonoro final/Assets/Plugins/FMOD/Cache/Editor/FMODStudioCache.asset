@@ -22,7 +22,7 @@ MonoBehaviour:
   - {fileID: -517745750732845958}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -148,10 +148,10 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Music.bank"
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639152155241016848
+  lastModified: 639152268688844364
   FileSizes:
   - Name: Desktop
-    Value: 2436352
+    Value: 2538752
   - Name: HTML5
     Value: 10454368
   Exists: 1
@@ -176,14 +176,14 @@ MonoBehaviour:
   Banks:
   - {fileID: -6185597246542759622}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 6854131037594799967}
   - {fileID: -8712538559801929606}
   MinDistance: 1
   MaxDistance: 20
-  Length: 150857
+  Length: 169108
 --- !u!114 &-5106459891468488582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639152223448627061
+  lastModified: 639152263793432240
   FileSizes:
   - Name: Desktop
     Value: 28808736
@@ -354,10 +354,10 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Vehicles.bank"
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639152222378225671
+  lastModified: 639152264148654838
   FileSizes:
   - Name: Desktop
-    Value: 201088
+    Value: 201632
   - Name: HTML5
     Value: 494
   Exists: 1
@@ -377,7 +377,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Bank A.bank"
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 639151351526506244
+  lastModified: 639152259418920495
   FileSizes:
   - Name: Desktop
     Value: 167264
@@ -434,7 +434,7 @@ MonoBehaviour:
   - {fileID: -5106459891468488582}
   StringsBanks:
   - {fileID: 7227031594604324675}
-  cacheTime: 639152223448637390
+  cacheTime: 639152268688844364
   cacheVersion: 131636
 --- !u!114 &317229541510889271
 MonoBehaviour:
@@ -614,7 +614,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/VO.bank"
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639151309372439220
+  lastModified: 639152259420225709
   FileSizes:
   - Name: Desktop
     Value: 111584
@@ -784,7 +784,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639152223448637390
+  lastModified: 639152263793452244
   FileSizes:
   - Name: Desktop
     Value: 2696

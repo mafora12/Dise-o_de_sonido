@@ -39,6 +39,7 @@ public class PickupObject : TargetObject
         TimeManager.OnAdjustTime(TimeGained);
 
         Destroy(gameObject, collectDuration);
+        FindObjectOfType<KartMusicController>()?.CheckpointPassed();
     }
     
     void OnTriggerEnter(Collider other)

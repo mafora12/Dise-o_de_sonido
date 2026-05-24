@@ -116,6 +116,7 @@
     <Compile Include="Assets\Karting\Scripts\Utilities\IgnoreHeatMap.cs" />
     <Compile Include="Assets\Karting\Scripts\KartSystems\ArcadeKart.cs" />
     <Compile Include="Assets\Karting\Scripts\TakeScreenshot.cs" />
+    <Compile Include="Assets\Karting\Scripts\KartMusicController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Karting\Scripts\KartGame.asmdef" />
