@@ -10209,7 +10209,7 @@ MonoBehaviour:
       Data4: -810023635
     Path: event:/Vehicles/engine_reverse
   Event: 
-  EventPlayTrigger: 3
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -10240,7 +10240,7 @@ MonoBehaviour:
       Data4: -783228328
     Path: event:/Vehicles/drift
   Event: 
-  EventPlayTrigger: 3
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -10271,7 +10271,7 @@ MonoBehaviour:
       Data4: -1729498353
     Path: event:/Vehicles/engine_running
   Event: 
-  EventPlayTrigger: 3
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -10333,7 +10333,7 @@ MonoBehaviour:
       Data4: -1070258416
     Path: event:/Vehicles/engine_idle
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -12630,7 +12630,7 @@ PrefabInstance:
         type: 3}
       propertyPath: reverseEmitter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1089722855}
     - target: {fileID: 403965902444250510, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: runningEmitter

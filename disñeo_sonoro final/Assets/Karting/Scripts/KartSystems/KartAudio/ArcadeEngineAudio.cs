@@ -26,31 +26,35 @@ namespace KartGame.KartSystems
 
             if (kartSpeed < 0)
             {
-                idleEmitter?.Stop();
-                runningEmitter?.Stop();
-                reverseEmitter?.Play();
+                if (idleEmitter != null && idleEmitter.IsPlaying()) idleEmitter.Stop();
+                if (runningEmitter != null && runningEmitter.IsPlaying()) runningEmitter.Stop();
+                if (reverseEmitter != null && !reverseEmitter.IsPlaying()) reverseEmitter.Play();
             }
             else
             {
-                reverseEmitter?.Stop();
+                if (reverseEmitter != null && reverseEmitter.IsPlaying()) reverseEmitter.Stop();
                 if (kartSpeed < 0.1f)
                 {
-                    runningEmitter?.Stop();
-                    idleEmitter?.Play();
+                    if (runningEmitter != null && runningEmitter.IsPlaying()) runningEmitter.Stop();
+                    if (idleEmitter != null && !idleEmitter.IsPlaying()) idleEmitter.Play();
                 }
                 else
                 {
-                    idleEmitter?.Stop();
-                    runningEmitter?.Play();
+                    if (idleEmitter != null && idleEmitter.IsPlaying()) idleEmitter.Stop();
+                    if (runningEmitter != null && !runningEmitter.IsPlaying()) runningEmitter.Play();
                 }
             }
 
             if (driftEmitter != null && arcadeKart != null)
             {
                 if (arcadeKart.IsDrifting && arcadeKart.GroundPercent > 0)
-                    driftEmitter.Play();
+                {
+                    if (!driftEmitter.IsPlaying()) driftEmitter.Play();
+                }
                 else
-                    driftEmitter.Stop();
+                {
+                    if (driftEmitter.IsPlaying()) driftEmitter.Stop();
+                }
             }
         }
     }

@@ -98,13 +98,13 @@ MonoBehaviour:
     Data4: -810023635
   Banks:
   - {fileID: -517745750732845958}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 12400
+  Length: 1400
 --- !u!114 &-6452052799913355884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639152155240594896
+  lastModified: 639152223448627061
   FileSizes:
   - Name: Desktop
     Value: 28808736
@@ -354,10 +354,10 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Vehicles.bank"
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639152153339808257
+  lastModified: 639152222378225671
   FileSizes:
   - Name: Desktop
-    Value: 959040
+    Value: 201088
   - Name: HTML5
     Value: 494
   Exists: 1
@@ -434,7 +434,7 @@ MonoBehaviour:
   - {fileID: -5106459891468488582}
   StringsBanks:
   - {fileID: 7227031594604324675}
-  cacheTime: 639152155241016848
+  cacheTime: 639152223448637390
   cacheVersion: 131636
 --- !u!114 &317229541510889271
 MonoBehaviour:
@@ -784,7 +784,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639152155240615549
+  lastModified: 639152223448637390
   FileSizes:
   - Name: Desktop
     Value: 2696
