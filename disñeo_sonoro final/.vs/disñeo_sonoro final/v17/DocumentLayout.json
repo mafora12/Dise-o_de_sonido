@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\gamemodes\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|solutionrelative:assets\\karting\\scripts\\gamemodes\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|c:\\users\\mariana\\documents\\github\\dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\kartmusiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|solutionrelative:assets\\karting\\scripts\\kartmusiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|c:\\users\\mariana\\documents\\github\\dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\gameflowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|solutionrelative:assets\\karting\\scripts\\gameflowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|c:\\users\\mariana\\documents\\github\\dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\ui\\feedbackflashhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|solutionrelative:assets\\karting\\scripts\\ui\\feedbackflashhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\gamemodes\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|solutionrelative:assets\\karting\\scripts\\gamemodes\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\gameflowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|solutionrelative:assets\\karting\\scripts\\gameflowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C9569B-3DB4-5879-C90A-1A6F7738C5EA}|KartGame.csproj|C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\assets\\karting\\scripts\\kartsystems\\kartaudio\\arcadeengineaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "FeedbackFlashHUD.cs",
+              "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\UI\\FeedbackFlashHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\UI\\FeedbackFlashHUD.cs",
+              "ToolTip": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\UI\\FeedbackFlashHUD.cs",
+              "RelativeToolTip": "Assets\\Karting\\Scripts\\UI\\FeedbackFlashHUD.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T23:44:40.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameFlowManager.cs",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\GameFlowManager.cs",
               "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\GameFlowManager.cs",
@@ -54,25 +71,24 @@
               "RelativeToolTip": "Assets\\Karting\\Scripts\\GameFlowManager.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAADwv6UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T18:35:50.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T18:35:50.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "KartMusicController.cs",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\KartMusicController.cs",
               "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\KartMusicController.cs",
               "ToolTip": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\KartMusicController.cs",
               "RelativeToolTip": "Assets\\Karting\\Scripts\\KartMusicController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T18:15:37.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DisplayMessage.cs",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\UI\\DisplayMessage.cs",
               "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\UI\\DisplayMessage.cs",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "KartGame.asmdef",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\KartGame.asmdef",
               "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\KartGame.asmdef",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ArcadeEngineAudio.cs",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\KartSystems\\KartAudio\\ArcadeEngineAudio.cs",
               "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\KartSystems\\KartAudio\\ArcadeEngineAudio.cs",
@@ -108,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PickupObject.cs",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\GameModes\\PickupObject.cs",
               "RelativeDocumentMoniker": "Assets\\Karting\\Scripts\\GameModes\\PickupObject.cs",
               "ToolTip": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Karting\\Scripts\\GameModes\\PickupObject.cs",
               "RelativeToolTip": "Assets\\Karting\\Scripts\\GameModes\\PickupObject.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-23T16:13:36.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "fmodstudioL.dll",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Plugins\\FMOD\\staging\\win\\lib\\arm64\\fmodstudioL.dll",
               "RelativeDocumentMoniker": "Assets\\Plugins\\FMOD\\staging\\win\\lib\\arm64\\fmodstudioL.dll",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FMODUnity.asmdef",
               "DocumentMoniker": "C:\\Users\\MARIANA\\Documents\\GitHub\\Dise\u00F1o_de_sonido\\dis\u00F1eo_sonoro final\\Assets\\Plugins\\FMOD\\FMODUnity.asmdef",
               "RelativeDocumentMoniker": "Assets\\Plugins\\FMOD\\FMODUnity.asmdef",

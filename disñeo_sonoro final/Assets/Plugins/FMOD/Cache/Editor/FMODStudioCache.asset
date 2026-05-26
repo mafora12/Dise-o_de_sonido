@@ -51,6 +51,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8162641085154053803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/warning
+  m_EditorClassIdentifier: 
+  Path: event:/UI/warning
+  Guid:
+    Data1: 767365179
+    Data2: 1135545051
+    Data3: -2058415686
+    Data4: -1643704438
+  Banks:
+  - {fileID: -145503648811917688}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-7262418094221950205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +211,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 169108
+--- !u!114 &-5473868848995412900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/clic_button
+  m_EditorClassIdentifier: 
+  Path: event:/UI/clic_button
+  Guid:
+    Data1: -2042139449
+    Data2: 1117471313
+    Data3: -1091395420
+    Data4: -1126179012
+  Banks:
+  - {fileID: -145503648811917688}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 267
 --- !u!114 &-5106459891468488582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +254,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639152263793432240
+  lastModified: 639153321515229077
   FileSizes:
   - Name: Desktop
     Value: 28808736
@@ -354,7 +408,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Vehicles.bank"
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639152264148654838
+  lastModified: 639153325146991375
   FileSizes:
   - Name: Desktop
     Value: 201632
@@ -377,10 +431,10 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Bank A.bank"
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 639152259418920495
+  lastModified: 639153325145710758
   FileSizes:
   - Name: Desktop
-    Value: 167264
+    Value: 203104
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -429,12 +483,14 @@ MonoBehaviour:
   - {fileID: 957521977878540250}
   - {fileID: 6882364069736745122}
   - {fileID: -1994645001153494150}
+  - {fileID: -8162641085154053803}
+  - {fileID: -5473868848995412900}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5106459891468488582}
   StringsBanks:
   - {fileID: 7227031594604324675}
-  cacheTime: 639152268688844364
+  cacheTime: 639153325146991375
   cacheVersion: 131636
 --- !u!114 &317229541510889271
 MonoBehaviour:
@@ -614,7 +670,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/VO.bank"
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639152259420225709
+  lastModified: 639153309404842688
   FileSizes:
   - Name: Desktop
     Value: 111584
@@ -784,12 +840,12 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639152263793452244
+  lastModified: 639153321515254172
   FileSizes:
   - Name: Desktop
-    Value: 2696
+    Value: 2774
   - Name: HTML5
-    Value: 2696
+    Value: 2774
   Exists: 1
 --- !u!114 &7558037892436536899
 MonoBehaviour:

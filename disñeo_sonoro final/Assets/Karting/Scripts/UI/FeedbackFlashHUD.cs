@@ -37,7 +37,6 @@ public class FeedbackFlashHUD : MonoBehaviour
         DebugUtility.HandleErrorIfNullFindObject<TimeManager, FeedbackFlashHUD>(m_timeManager, this);
 
         m_audioSource = GetComponent<AudioSource>();
-        DebugUtility.HandleErrorIfNullFindObject<AudioSource, FeedbackFlashHUD>(m_audioSource, this);
     }
 
     private void Update()
@@ -59,7 +58,7 @@ public class FeedbackFlashHUD : MonoBehaviour
                 vignetteCanvasGroup.alpha = ((Mathf.Sin(Time.time * pulsatingVignetteFrequency) / 2) + 0.5f) * vignetteAlpha;
 
                 if(!warningSoundPlayed && vignetteCanvasGroup.alpha >= 0.5f){
-                    m_audioSource.PlayOneShot(warningAudioClip);
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/UI/warning");
                     warningSoundPlayed = true;
                 }
 
