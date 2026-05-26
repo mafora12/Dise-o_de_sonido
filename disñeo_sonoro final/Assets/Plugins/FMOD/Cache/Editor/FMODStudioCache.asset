@@ -27,30 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2500
---- !u!114 &-8712538559801929606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 03/Intensity
-  m_EditorClassIdentifier: 
-  Name: Intensity
-  StudioPath: 
-  Min: 0
-  Max: 4
-  Default: 0
-  ID:
-    data1: 4130366537
-    data2: 2699559447
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-8162641085154053803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,14 +151,14 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Music.bank"
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639152268688844364
+  lastModified: 639153475338650219
   FileSizes:
   - Name: Desktop
     Value: 2538752
   - Name: HTML5
     Value: 10454368
   Exists: 1
---- !u!114 &-5602031873480180923
+--- !u!114 &-5525059288900476979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,26 +167,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Level 03
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/musica/Stinger
   m_EditorClassIdentifier: 
-  Path: event:/Music/Level 03
-  Guid:
-    Data1: -334097318
-    Data2: 1260140306
-    Data3: 651052185
-    Data4: -1957406073
-  Banks:
-  - {fileID: -6185597246542759622}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 6854131037594799967}
-  - {fileID: -8712538559801929606}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 169108
+  Name: Stinger
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 92787679
+    data2: 313628491
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5473868848995412900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +225,7 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639153321515229077
+  lastModified: 639153475338235056
   FileSizes:
   - Name: Desktop
     Value: 28808736
@@ -338,6 +309,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-3659481211668402822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/musica/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 4130366537
+    data2: 2699559447
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1994645001153494150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +460,6 @@ MonoBehaviour:
   - {fileID: 1004603058941628546}
   - {fileID: -7262418094221950205}
   - {fileID: 3918934663951661004}
-  - {fileID: -5602031873480180923}
   - {fileID: -1377841322822502962}
   - {fileID: 8386777524365082157}
   - {fileID: 3193803405583624802}
@@ -485,12 +479,13 @@ MonoBehaviour:
   - {fileID: -1994645001153494150}
   - {fileID: -8162641085154053803}
   - {fileID: -5473868848995412900}
+  - {fileID: 1114098141875451922}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5106459891468488582}
   StringsBanks:
   - {fileID: 7227031594604324675}
-  cacheTime: 639153325146991375
+  cacheTime: 639153475338650219
   cacheVersion: 131636
 --- !u!114 &317229541510889271
 MonoBehaviour:
@@ -573,6 +568,35 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &1114098141875451922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/musica
+  m_EditorClassIdentifier: 
+  Path: event:/Music/musica
+  Guid:
+    Data1: -334097318
+    Data2: 1260140306
+    Data3: 651052185
+    Data4: -1957406073
+  Banks:
+  - {fileID: -6185597246542759622}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5525059288900476979}
+  - {fileID: -3659481211668402822}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 169108
 --- !u!114 &3193803405583624802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,30 +774,6 @@ MonoBehaviour:
   - Name: HTML5
     Value: 61120
   Exists: 1
---- !u!114 &6854131037594799967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 03/Stinger
-  m_EditorClassIdentifier: 
-  Name: Stinger
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 92787679
-    data2: 313628491
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &6862144592668761434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,12 +840,12 @@ MonoBehaviour:
     sonoro/Examples/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639153321515254172
+  lastModified: 639153475338250952
   FileSizes:
   - Name: Desktop
-    Value: 2774
+    Value: 2772
   - Name: HTML5
-    Value: 2774
+    Value: 2772
   Exists: 1
 --- !u!114 &7558037892436536899
 MonoBehaviour:

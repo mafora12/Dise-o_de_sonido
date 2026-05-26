@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4515345, g: 0.29632834, b: 0.4279434, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16720,7 +16720,7 @@ MonoBehaviour:
       Data2: 1260140306
       Data3: 651052185
       Data4: -1957406073
-    Path: event:/Music/Level 03
+    Path: event:/Music/musica
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
